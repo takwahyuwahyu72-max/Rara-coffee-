@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rarakops</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f5f1eb;
+    color:#333;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1200');
+    background-size:cover;
+    background-position:center;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    font-size:1.3rem;
+    margin-bottom:30px;
+}
+
+.btn{
+    background:#6F4E37;
+    color:white;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:30px;
+    display:inline-block;
+    font-weight:bold;
+}
+
+section{
+    padding:70px 10%;
+}
+
+.section-title{
+    text-align:center;
+    color:#4E342E;
+    margin-bottom:40px;
+}
+
+.about{
+    text-align:center;
+    line-height:1.8;
+    max-width:800px;
+    margin:auto;
+}
+
+.menu-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.menu-card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.price{
+    color:#B85C38;
+    font-size:1.4rem;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.feature{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.testimonial{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    margin-bottom:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.contact{
+    text-align:center;
+    line-height:2;
+}
+
+footer{
+    background:#4E342E;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    border-radius:50%;
+    text-align:center;
+    line-height:60px;
+    color:white;
+    text-decoration:none;
+    font-size:28px;
+}
+
+@media(max-width:768px){
+.hero-content h1{
+    font-size:2.5rem;
+}
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>☕ Rarakops</h1>
+        <p>Temani harimu dengan secangkir kopi terbaik.</p>
+
+        <a href="https://wa.me/6289688363003" class="btn">
+            Pesan Sekarang
+        </a>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Tentang Rarakops</h2>
+
+    <div class="about">
+        Rarakops menghadirkan kopi berkualitas dari biji kopi pilihan.
+        Setiap cangkir diracik dengan penuh perhatian untuk memberikan
+        pengalaman ngopi terbaik bagi pelanggan.
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Menu Favorit</h2>
+
+    <div class="menu-grid">
+
+        <div class="menu-card">
+            <h3>Espresso</h3>
+            <div class="price">Rp10.000</div>
+        </div>
+
+        <div class="menu-card">
+            <h3>Americano</h3>
+            <div class="price">Rp15.000</div>
+        </div>
+
+        <div class="menu-card">
+            <h3>Cappuccino</h3>
+            <div class="price">Rp18.000</div>
+        </div>
+
+        <div class="menu-card">
+            <h3>Cafe Latte</h3>
+            <div class="price">Rp20.000</div>
+        </div>
+
+        <div class="menu-card">
+            <h3>Kopi Susu Gula Aren</h3>
+            <div class="price">Rp18.000</div>
+        </div>
+
+        <div class="menu-card">
+            <h3>Matcha Latte</h3>
+            <div class="price">Rp20.000</div>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Kenapa Memilih Kami?</h2>
+
+    <div class="feature-grid">
+
+        <div class="feature">
+            <h3>☕ Biji Kopi Pilihan</h3>
+            <p>Kualitas terbaik untuk cita rasa maksimal.</p>
+        </div>
+
+        <div class="feature">
+            <h3>🔥 Fresh Brew</h3>
+            <p>Diseduh langsung saat dipesan.</p>
+        </div>
+
+        <div class="feature">
+            <h3>💰 Harga Terjangkau</h3>
+            <p>Nikmat tanpa membuat kantong berat.</p>
+        </div>
+
+        <div class="feature">
+            <h3>🤝 Pelayanan Ramah</h3>
+            <p>Kepuasan pelanggan adalah prioritas kami.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Testimoni Pelanggan</h2>
+
+    <div class="testimonial">
+        ⭐⭐⭐⭐⭐<br>
+        "Kopi susu gula arennya mantap!"
+    </div>
+
+    <div class="testimonial">
+        ⭐⭐⭐⭐⭐<br>
+        "Harga terjangkau, rasa premium."
+    </div>
+
+    <div class="testimonial">
+        ⭐⭐⭐⭐⭐<br>
+        "Tempat favorit buat ngopi santai."
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Jam Operasional</h2>
+
+    <div class="contact">
+        Senin - Jumat : 08.00 - 22.00<br>
+        Sabtu - Minggu : 07.00 - 23.00
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Hubungi Kami</h2>
+
+    <div class="contact">
+        📍 Bintaro, Jakarta Selatan<br>
+        📱 089688363003
+    </div>
+</section>
+
+<footer>
+    © 2026 Rarakops
+</footer>
+
+<a href="https://wa.me/6289688363003" class="whatsapp">
+☎
+</a>
+
+</body>
+</html>
